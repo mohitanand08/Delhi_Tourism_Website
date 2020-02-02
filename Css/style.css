@@ -19,7 +19,7 @@ body {
 .header {
 	height: 97vh;
 	background-image: linear-gradient(to right bottom, rgb(202, 197, 49, 0.8), rgb(243, 249, 167, 0.8)),
-		url(../Images/qutub-minar-3359925_1280.jpeg);
+		url(/Delhi_Tourism_Website/Images/qutub-minar-3359925_1280.jpeg);
 	background-size: cover;
 	background-position: top;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -45,7 +45,7 @@ body {
 .header__profile-photo {
 	height: 12rem;
 	width: 12rem;
-	background-image: url(../Images/qutub_minar_background_image-1.jpg);
+	background-image: url(/Delhi_Tourism_Website/Images/qutub_minar_background_image-1.jpg);
 	background-size: cover;
 	position: absolute;
 	top: 30%;
