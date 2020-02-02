@@ -1,0 +1,135 @@
+/* Media Query */
+@media (max-width: 1200px) {
+	.header__profile-photo {
+		height: 9rem;
+		width: 9rem;
+	}
+	.header__profile-text h1 {
+		font-size: 1.8rem;
+	}
+	.header__profile-text p {
+		font-size: .9rem;
+	}
+	.header__profile-text {
+		margin-top: -2.2rem;
+	}
+}
+@media (max-width: 1025px) {
+	.header__profile-photo {
+		height: 9rem;
+		width: 9rem;
+	}
+	.header__profile-text h1 {
+		font-size: 1.8rem;
+	}
+	.header__profile-text p {
+		font-size: .9rem;
+	}
+}
+
+@media (max-width: 924px) {
+	.header__profile-photo {
+		margin-top: 0;
+		height: 7.7rem;
+		width: 7.7rem;
+	}
+	.header__profile-text h1 {
+		font-size: 2.5rem;
+		border-bottom: 3px solid white;
+	}
+	.header__profile-text p {
+		font-size: .85rem;
+	}
+}
+@media (max-width: 900px) {
+	.header__profile-photo {
+		margin-top: 0;
+		height: 7.5rem;
+		width: 7.5rem;
+	}
+	.header__profile-text h1 {
+		font-size: 2rem;
+	}
+	.header__profile-text p {
+		font-size: .8rem;
+	}
+}
+@media (max-width: 640px) {
+	body {
+		padding: 0;
+	}
+	.header__profile-photo {
+		margin-top: 0;
+		height: 7.5rem;
+		width: 7.5rem;
+	}
+	.header__profile-text h1 {
+		font-size: 1.5rem;
+		border-bottom: 1px solid white;
+	}
+}
+@media (max-width: 450px) {
+	.header__profile-photo {
+		margin-top: .5rem;
+	}
+	.header__profile-photo {
+		height: 7.5rem;
+		width: 7.5rem;
+	}
+	.header__profile-text {
+		margin-top: -40px;
+	}
+	.header__profile-text h1 {
+		font-size: 1.9rem;
+	}
+	.header__profile-text p {
+		font-size: .7rem;
+	}
+}
+/* Iphone 6/7/8 440px  Iphone X-> Responsive design */
+@media (max-width: 440px) {
+	.header__profile-text h1 {
+		padding-top: 30px;
+	}
+}
+
+/*responsive timeline*/
+
+@media (max-width: 767px) {
+	.timeline .content ul::before {
+		left: 30px;
+	}
+	.timeline .content ul li {
+		width: 100%;
+	}
+	.timeline .content ul li:nth-child(odd) {
+		text-align: left;
+	}
+	.timeline .content ul li:nth-child(odd)::before {
+		left: 30px;
+	}
+	.timeline .content ul li:nth-child(even)::before {
+		left: 30px;
+	}
+
+	.timeline .content ul li {
+		position: relative;
+		padding: 20px 30px 20px 60px;
+	}
+	.timeline .content ul li h3 {
+		padding-top: 20px;
+	}
+	.timeline .content ul li .time {
+		position: relative;
+		top: auto;
+	}
+	.timeline .content ul li:nth-child(odd) .time {
+		left: 0px;
+		margin-left: 0px;
+	}
+	.timeline .content ul li:nth-child(even) .time {
+		left: 0px;
+		right: auto;
+		margin-right: 0px;
+	}
+}
